@@ -19,4 +19,4 @@ Future Plans:
 		· ...
 	- Read papers about NAS for transformers
 		· Autoformer?
-		· TO BE FOUND		
+		· TO BE FOUND
