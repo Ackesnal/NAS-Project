@@ -1,21 +1,21 @@
 Meeting Contents:
-	- Xuwei reported paper reading progress and his ideas. He mainly focused on architecture embedding and network structures.
-	- Changlin and Dr Chang provided comments and suggestions based on Xuwei's presentation.
-		· Xuwei's proposal of discovering relationship between relational graph embedding and network performance has been done in some papers (No significant difference from Arch2Vec).
-		· The idea itself was weakly motivative.
+  - Xuwei reported paper reading progress and his ideas. He mainly focused on architecture embedding and network structures.
+  - Changlin and Dr Chang provided comments and suggestions based on Xuwei's presentation.
+    · Xuwei's proposal of discovering relationship between relational graph embedding and network performance has been done in some papers (No significant difference from Arch2Vec).
+    · The idea itself was weakly motivative.
 
 Meeting Conclusions:
-	- Research direct: "Adopt NAS for constructing efficient vision transformer model"
-		· Use NAS technique only, rather than other network squeeze technique
-		· Make transformer achieve better performance than CNN models on vision tasks with a same-level light network.
-		· Mixing self-attention layer with mlp layer may have potentials
+  - Research direct: "Adopt NAS for constructing efficient vision transformer model"
+    · Use NAS technique only, rather than other network squeeze technique
+    · Make transformer achieve better performance than CNN models on vision tasks with a same-level light network.
+    · Mixing self-attention layer with mlp layer may have potentials
 		
 Future Plans:
-	- Meet again after two weeks. June 9th, 2021
-	- Read papers about vision transformer and comprehand how transformer is utilize in vision tasks
-		· Swin Transformer: Hierarchical Vision Transformer using Shifted Windows
-		· An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
-		· DeiT: Data-efficient Image Transformers
-	- Read papers about NAS for transformers
-		· Autoformer?
-		· TO BE FOUND
+  - Meet again after two weeks. June 9th, 2021
+  - Read papers about vision transformer and comprehand how transformer is utilize in vision tasks
+    · Swin Transformer: Hierarchical Vision Transformer using Shifted Windows
+    · An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
+    · DeiT: Data-efficient Image Transformers
+  - Read papers about NAS for transformers
+    · Autoformer?
+    · TO BE FOUND
