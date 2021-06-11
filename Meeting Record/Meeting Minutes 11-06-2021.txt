@@ -1,6 +1,6 @@
 Meeting Contents:
 	- Xuwei reported literature reviewing progress about vision transformers:
-    · An Image Is Worth 16×16 Words: Transformers For Image Recognition At Scale
+		· An Image Is Worth 16×16 Words: Transformers For Image Recognition At Scale
     · Swin Transformer: Hierarchical Vision Transformer using Shifted Windows
     · Tokens-to-Token ViT: Training Vision Transformers from Scratch on ImageNet
     · Visformer: The Vision-friendly Transformer
