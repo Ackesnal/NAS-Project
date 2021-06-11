@@ -1,1 +1,28 @@
+Meeting Contents:
+	- Xuwei reported literature reviewing progress about vision transformers:
+    · An Image Is Worth 16×16 Words: Transformers For Image Recognition At Scale
+    · Swin Transformer: Hierarchical Vision Transformer using Shifted Windows
+    · Tokens-to-Token ViT: Training Vision Transformers from Scratch on ImageNet
+    · Visformer: The Vision-friendly Transformer
+    · AutoFormer: Searching Transformers for Visual Recognition
+    
+	- Changlin provided comments and suggestions based on Xuwei's presentation:
+    · Xuwei's calculation on the number of parameters was incorrect. The multi-head does not affect the number of parameters.
+    · Soft-split, patch merging and window-based self-attention focus on different aspects. They should not be regared as the same thing.
+    · Soft-split still works with global attention, but provides some minor senses of the surrounding patches.
+    · Patch merging helps to reduce the tokens and acts as dowmsampling. It helps with multi-scale attention.
+    · Window-based self-attention only focuses on regional attention and neglects the global attention. It is significantly useful with high resolutions.
+    · AutoFormer's training strategy is more like slimmable network. It enforces the head parts to be trained and optimized more than the rest parts.
+    · AutoFormer's main discovery is that weight entanglement training results are close to the retraining result. Its methods have been proposed in other works.
 
+Meeting Conclusions:
+	- Determine the innovations and future steps:
+    · Searching architectures rather than simply searching self-attention structure hyperparameters.
+    · Using "sparse training" methods for training the transformer supernet. Ensuring the more informative attentions are more likely to be selected out.
+    · Thinking about structure hierarchical nesting. In other words, training distinct architectures under the same frame.
+		
+Future Plans:
+	- Determine and document the the search space design, which should be handed to Changlin for confirmation as soon as possible.
+  - Read papers about vision transformer, dynamic network and NAS further.
+  - Modify and implement training codes based on AutoFormer.
+  - Consider possible methodologies for K-, Q- or V-irrelevant calculation.
